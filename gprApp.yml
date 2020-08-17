@@ -1,0 +1,46 @@
+name: gprApp
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py37_0
+  - click=7.1.2=py_0
+  - flask=1.1.2=py_0
+  - intel-openmp=2019.4=233
+  - itsdangerous=1.1.0=py37_0
+  - jinja2=2.11.2=py_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.3=hb1e8313_2
+  - libgfortran=3.0.1=h93005f0_2
+  - markupsafe=1.1.1=py37h1de35cc_0
+  - mkl=2019.4=233
+  - mkl-service=2.3.0=py37hfbe908c_0
+  - mkl_fft=1.1.0=py37hc64f4ea_0
+  - mkl_random=1.1.1=py37h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.18.5=py37h1da2735_0
+  - numpy-base=1.18.5=py37h3304bdc_0
+  - openssl=1.1.1g=h1de35cc_0
+  - pip=20.1.1=py37_1
+  - python=3.7.7=hf48f09d_4
+  - readline=8.0=h1de35cc_0
+  - scipy=1.5.0=py37h912ce22_0
+  - setuptools=49.2.0=py37_0
+  - six=1.15.0=py_0
+  - sqlite=3.32.3=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - werkzeug=1.0.1=py_0
+  - wheel=0.34.2=py37_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - pip:
+    - decorator==4.4.2
+    - flask-wtf==0.14.3
+    - gpy==1.9.9
+    - gpyopt==1.2.6
+    - paramz==0.9.5
+    - wtforms==2.3.1
+prefix: /Users/mikkelgronning/opt/anaconda3/envs/gprApp
+
